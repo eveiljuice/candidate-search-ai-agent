@@ -1,0 +1,37 @@
+{
+  "name": "github-candidate-search-agent",
+  "version": "1.0.0",
+  "description": "Autonomous AI agent for searching GitHub developers via natural language",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx --no-warnings src/index.ts",
+    "dev:watch": "tsx watch --clear-screen=false src/index.ts",
+    "test:keyboard": "tsx test-keyboard.ts",
+    "test:keyboard:simple": "tsx test-keyboard-simple.ts"
+  },
+  "keywords": [
+    "ai-agent",
+    "github",
+    "playwright",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^17.2.3",
+    "openai": "^4.77.0",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

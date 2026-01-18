@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.browser-data/
+*.log
+.env
+.env.local
+test-keyboard.ts
+test-keyboard-simple.ts
